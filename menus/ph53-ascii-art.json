@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ph53-ascii-art",
+        "command": "ph53-ascii-art:convert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ph53-ascii-art",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ph53-ascii-art:convert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

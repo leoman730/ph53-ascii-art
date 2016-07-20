@@ -1,0 +1,19 @@
+{
+  "name": "ph53-ascii-art",
+  "main": "./lib/ph53-ascii-art",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ph53-ascii-art:convert"
+  },
+  "repository": "https://github.com/leoman730/ph53-ascii-art",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "figlet": "1.0.8"
+  }
+}
